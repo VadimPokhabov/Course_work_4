@@ -30,7 +30,7 @@ class SortedVacancy:
                 self.date_format = f"{date:%d.%m.%Y}"
             self.head_hunter_sorted.append({
                 "name": i["name"],
-                "url": i["apply_alternate_url"],
+                "url": i["alternate_url"],
                 "city": i["area"]["name"],
                 "currency": i["salary"]["currency"],
                 "payment_from": i["salary"]["from"],
