@@ -27,7 +27,7 @@ class HHRequestDebug(UserForm):
         Проверка на ввод числа и пустую строку
         :return: self.search_query
         """
-        self.search_query = input("Введите поисковой запрос: ")
+        self.search_query = input("Введите вакансию: ")
         if self.search_query == "":
             raise ValueError("Запрос не может быть пустым")
         if self.search_query.isdigit():

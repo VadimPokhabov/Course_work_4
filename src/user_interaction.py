@@ -29,7 +29,8 @@ class UserInteractionJson(DebugUserJson):
         for result in vacancies_list:
             print(f"Город: {result['city']}\nДата публикации: {result['date']}\n"
                   f"Должность: {result['name']}\nТребование: {result['requirement']}\n"
-                  f"Ответственность: {result['responsibility']}\nЗарплата от {result['payment_from']}\n")
+                  f"Ответственность: {result['responsibility']}\nЗарплата от {result['payment_from']}\n"
+                  f"Ссылка на сайт hh.ru: {result['url']}")
         if len(vacancies_list) == 0:
             print(f'Результатов 0')
 

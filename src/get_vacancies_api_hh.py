@@ -43,7 +43,6 @@ class GetHeadHunter(Vacancy, VacancyAPI):
         Только для записи. Создаст новый файл,
         если не найдет с указанным именем.
         Кодировка = utf-8
-        :return:
         """
         with open(FILE, "w", encoding="utf-8") as file:
             file.write(json.dumps(self.get_vacancy, indent=4, ensure_ascii=False))

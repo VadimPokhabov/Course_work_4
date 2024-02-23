@@ -1,20 +1,111 @@
 {
     "items": [
         {
-            "id": "92281844",
+            "id": "93254580",
             "premium": false,
-            "name": "Middle Python Developer",
+            "name": "Машинист буровой установки RU-75",
             "department": null,
             "has_test": false,
             "response_letter_required": false,
             "area": {
-                "id": "2",
-                "name": "Санкт-Петербург",
-                "url": "https://api.hh.ru/areas/2"
+                "id": "102",
+                "name": "Хабаровск",
+                "url": "https://api.hh.ru/areas/102"
             },
             "salary": {
-                "from": 100000,
-                "to": 120000,
+                "from": 228000,
+                "to": 228000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Хабаровск",
+                "street": "улица Истомина",
+                "building": "51А",
+                "lat": 48.474997,
+                "lng": 135.058846,
+                "description": null,
+                "raw": "Хабаровск, улица Истомина, 51А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "4898993"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-02-15T08:00:54+0300",
+            "created_at": "2024-02-15T08:00:54+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=93254580",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/93254580?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/93254580",
+            "relations": [],
+            "employer": {
+                "id": "4987434",
+                "name": "Охотская Горно-Геологическая Компания",
+                "url": "https://api.hh.ru/employers/4987434",
+                "alternate_url": "https://hh.ru/employer/4987434",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/944456.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/4218361.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/4218360.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4987434",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Квалификационное удостоверение машиниста буровой установки 5 разряда. Опыт работы на буровой установки RU-75., LM-75. Проведение текущих аварийных и...",
+                "responsibility": "Бурение из буровых камер. Бурение согласно ГТН, умение подобрать породоразрушающий инструмент, монтаж на устье скважины."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flyInFlyOut",
+                "name": "Вахтовый метод"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "63",
+                    "name": "Машинист"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "92858058",
+            "premium": false,
+            "name": "Машинист бульдозера Shantui SD22 (болотоход)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "102",
+                "name": "Хабаровск",
+                "url": "https://api.hh.ru/areas/102"
+            },
+            "salary": {
+                "from": 160000,
+                "to": null,
                 "currency": "RUR",
                 "gross": false
             },
@@ -25,32 +116,214 @@
             "address": null,
             "response_url": null,
             "sort_point_distance": null,
-            "published_at": "2024-01-26T17:47:55+0300",
-            "created_at": "2024-01-26T17:47:55+0300",
+            "published_at": "2024-02-08T04:10:07+0300",
+            "created_at": "2024-02-08T04:10:07+0300",
             "archived": false,
-            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=92281844",
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=92858058",
             "show_logo_in_search": null,
             "insider_interview": null,
-            "url": "https://api.hh.ru/vacancies/92281844?host=hh.ru",
-            "alternate_url": "https://hh.ru/vacancy/92281844",
+            "url": "https://api.hh.ru/vacancies/92858058?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/92858058",
             "relations": [],
             "employer": {
-                "id": "1504670",
-                "name": "HEADS and HANDS",
-                "url": "https://api.hh.ru/employers/1504670",
-                "alternate_url": "https://hh.ru/employer/1504670",
+                "id": "4987434",
+                "name": "Охотская Горно-Геологическая Компания",
+                "url": "https://api.hh.ru/employers/4987434",
+                "alternate_url": "https://hh.ru/employer/4987434",
                 "logo_urls": {
-                    "original": "https://hhcdn.ru/employer-logo-original/912603.png",
-                    "240": "https://hhcdn.ru/employer-logo/4091096.png",
-                    "90": "https://hhcdn.ru/employer-logo/4091095.png"
+                    "original": "https://hhcdn.ru/employer-logo-original/944456.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/4218361.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/4218360.jpeg"
                 },
-                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1504670",
-                "accredited_it_employer": true,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4987434",
+                "accredited_it_employer": false,
                 "trusted": true
             },
             "snippet": {
-                "requirement": "От 2-х лет коммерческого опыта, знаешь что такое SOLID, DRY, KISS, интересуешься паттернами проектирования. Знаешь <highlighttext>Python</highlighttext> 3.8. ",
-                "responsibility": "Участвовать во всех этапах разработки в составе scrum-команды: собирать и анализировать требования, декомпозировать и оценивать задачи, писать код, релизить..."
+                "requirement": "Удостоверение тракториста-машиниста категории: E. Опыт работы в дорожном строительстве в должности машиниста бульдозера от 3-х лет с записями...",
+                "responsibility": "Выполнять планировочные работы при ремонте и содержании грунтовых автодорог. Применять в процессе работы бульдозер в соответствии с руководством по эксплуатации. "
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flyInFlyOut",
+                "name": "Вахтовый метод"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "63",
+                    "name": "Машинист"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "93111718",
+            "premium": false,
+            "name": "Машинист самоходного крана Tadano",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "102",
+                "name": "Хабаровск",
+                "url": "https://api.hh.ru/areas/102"
+            },
+            "salary": {
+                "from": 180000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Хабаровск",
+                "street": "улица Истомина",
+                "building": "51А",
+                "lat": 48.474997,
+                "lng": 135.058846,
+                "description": null,
+                "raw": "Хабаровск, улица Истомина, 51А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "4898993"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-02-13T05:38:57+0300",
+            "created_at": "2024-02-13T05:38:57+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=93111718",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/93111718?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/93111718",
+            "relations": [],
+            "employer": {
+                "id": "4987434",
+                "name": "Охотская Горно-Геологическая Компания",
+                "url": "https://api.hh.ru/employers/4987434",
+                "alternate_url": "https://hh.ru/employer/4987434",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/944456.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/4218361.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/4218360.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4987434",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Образование: Среднее профессиональное, среднее техническое (машинист самоходного крана 6 разряда). Наличие удостоверение тракториста машиниста категории D, с отметкой машинист крана...",
+                "responsibility": "Управление самоходным краном грузоподъемностью 60 т, оснащенным различными грузозахватными приспособлениями, при выполнении всех видов работ. Содержать механизмы и оборудование крана..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flyInFlyOut",
+                "name": "Вахтовый метод"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "63",
+                    "name": "Машинист"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "92297803",
+            "premium": false,
+            "name": "Машинист экскаватора 7 разряда",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "4",
+                "name": "Новосибирск",
+                "url": "https://api.hh.ru/areas/4"
+            },
+            "salary": {
+                "from": 91000,
+                "to": null,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "рабочий посёлок Горный",
+                "street": null,
+                "building": null,
+                "lat": 55.11892,
+                "lng": 83.898129,
+                "description": null,
+                "raw": "рабочий посёлок Горный",
+                "metro": null,
+                "metro_stations": [],
+                "id": "6549151"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-01-28T09:01:15+0300",
+            "created_at": "2024-01-28T09:01:15+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=92297803",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/92297803?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/92297803",
+            "relations": [],
+            "employer": {
+                "id": "117442",
+                "name": "Новосибирское карьероуправление",
+                "url": "https://api.hh.ru/employers/117442",
+                "alternate_url": "https://hh.ru/employer/117442",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/6560510.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/6560509.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/1235017.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=117442",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Начальное профессиональное образование. Опыт работы в аналогичной сфере не менее 1 года. Удостоверение тракториста-машиниста на право управления экскаваторами (кат...",
+                "responsibility": "Разработка <highlighttext>горной</highlighttext> массы и грунта. Перемещение <highlighttext>горной</highlighttext> массы, грунта на борт карьера или в отвал. Планировка забоя, верхней и нижней..."
             },
             "contacts": null,
             "schedule": {
@@ -63,8 +336,8 @@
             "accept_temporary": false,
             "professional_roles": [
                 {
-                    "id": "96",
-                    "name": "Программист, разработчик"
+                    "id": "63",
+                    "name": "Машинист"
                 }
             ],
             "accept_incomplete_resumes": false,
@@ -79,15 +352,98 @@
             "adv_response_url": null,
             "is_adv_vacancy": false,
             "adv_context": null
+        },
+        {
+            "id": "92847134",
+            "premium": false,
+            "name": "Заместитель директора юридического департамента управляющей компании Холдинга",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 350000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-02-07T18:04:23+0300",
+            "created_at": "2024-02-07T18:04:23+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=92847134",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/92847134?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/92847134",
+            "relations": [],
+            "employer": {
+                "id": "570229",
+                "name": "Холдинговая компания АлфиГрупп",
+                "url": "https://api.hh.ru/employers/570229",
+                "alternate_url": "https://hh.ru/employer/570229",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1212631.png",
+                    "240": "https://hhcdn.ru/employer-logo/6470974.png",
+                    "90": "https://hhcdn.ru/employer-logo/6470973.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=570229",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Желание и возможность кандидата на временную релокацию в г. Брянск сроком на 12-18 месяцев, далее работа в УКХ в...",
+                "responsibility": "Участие в определении стратегии работы юридического департамента Холдинга. Полное юридическое сопровождение деятельности компаний в структуре Холдинга. Правовое сопровождение корпоративных процедур..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "fullDay",
+                "name": "Полный день"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "145",
+                    "name": "Юрисконсульт"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
         }
     ],
-    "found": 2796,
-    "pages": 2000,
+    "found": 12542,
+    "pages": 400,
     "page": 0,
-    "per_page": 1,
+    "per_page": 5,
     "clusters": null,
     "arguments": null,
-    "fixes": null,
+    "fixes": {
+        "original": "говноед",
+        "fixed": "горное"
+    },
     "suggests": null,
-    "alternate_url": "https://hh.ru/search/vacancy?area=113&enable_snippets=true&items_on_page=1&only_with_salary=true&text=python"
+    "alternate_url": "https://hh.ru/search/vacancy?area=113&enable_snippets=true&items_on_page=5&only_with_salary=true&text=%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D0%B5"
 }
