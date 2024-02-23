@@ -5,12 +5,19 @@ from pprint import pprint
 
 
 class SortedVacancy:
+    """
+    Класс сортирует вакансии
+    """
     def __init__(self):
         self.head_hunter_sorted = []
         self.date_format = None
 
     @property
     def sorted_vacancies_hh(self):
+        """
+        Получаем отсортированный список вакансий из json файла
+        :return: self.head_hunter_sorted
+        """
         with open(FILE, encoding="utf-8") as file:
             content = json.load(file)
         for i in content["items"]:

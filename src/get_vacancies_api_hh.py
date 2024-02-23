@@ -1,11 +1,14 @@
 from config import FILE
-from src.API_vacancies import VacancyAPI
+from src.api_connect import VacancyAPI
 from src.vacancies import Vacancy
 import json
 import requests
 
 
 class GetHeadHunter(Vacancy, VacancyAPI):
+    """
+    Класс получает вакансии с hh.ru
+    """
     def __init__(self, name, top_n):
         super().__init__(name, top_n)
         self.top_n = top_n
@@ -19,6 +22,13 @@ class GetHeadHunter(Vacancy, VacancyAPI):
 
     @property
     def get_vacancy(self):
+        """
+        Получение вакансий,
+            -только в России,
+            -только enable_snippets,
+            -только с указанием зарплаты
+        :return: date
+        """
         date = requests.get(f"{self.url}/vacancies",
                             params={'text': self.name,
                                     'area': 113,
@@ -28,6 +38,13 @@ class GetHeadHunter(Vacancy, VacancyAPI):
         return date
 
     def get_json(self):
+        """
+        Открывает файл
+        Только для записи. Создаст новый файл,
+        если не найдет с указанным именем.
+        Кодировка = utf-8
+        :return:
+        """
         with open(FILE, "w", encoding="utf-8") as file:
             file.write(json.dumps(self.get_vacancy, indent=4, ensure_ascii=False))
 
