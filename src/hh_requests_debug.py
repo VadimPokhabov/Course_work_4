@@ -23,3 +23,9 @@ class HHRequestDebug(UserForm):
             raise TypeError("Запрос не может быть числом")
         else:
             return self.search_query
+
+
+if __name__ == '__main__':
+    r = HHRequestDebug()
+    print(r.user_input_str())
+
