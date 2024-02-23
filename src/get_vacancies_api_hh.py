@@ -50,5 +50,5 @@ class GetHeadHunter(Vacancy, VacancyAPI):
 
 
 if __name__ == '__main__':
-    r = GetHeadHunter("python", 100)
+    r = GetHeadHunter("python", 1)
     r.get_json()

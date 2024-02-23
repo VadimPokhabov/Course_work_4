@@ -36,7 +36,7 @@ class SortedVacancy:
                 "payment_to": i["salary"]["to"],
                 "requirement": i["snippet"]["requirement"],
                 "responsibility": i["snippet"]["responsibility"],
-                "data": self.date_format
+                "date": self.date_format
             })
         return self.head_hunter_sorted
 
