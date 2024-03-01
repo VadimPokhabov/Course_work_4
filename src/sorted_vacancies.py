@@ -1,7 +1,6 @@
 import json
 from datetime import datetime
 from config import FILE
-from pprint import pprint
 
 
 class SortedVacancy:
@@ -9,6 +8,9 @@ class SortedVacancy:
     Класс сортирует вакансии
     """
     def __init__(self):
+        """
+        Инициализация
+        """
         self.head_hunter_sorted = []
         self.date_format = None
 
@@ -40,8 +42,3 @@ class SortedVacancy:
                 "date": self.date_format
             })
         return self.head_hunter_sorted
-
-
-if __name__ == '__main__':
-    r = SortedVacancy()
-    pprint(r.sorted_vacancies_hh)

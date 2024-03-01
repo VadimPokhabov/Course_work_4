@@ -6,18 +6,26 @@ import requests
 
 
 class GetHeadHunter(Vacancy, VacancyAPI):
-    """
-    Класс получает вакансии с hh.ru
-    """
     def __init__(self, name, top_n):
+        """
+        Класс получает вакансии с hh.ru
+        """
         super().__init__(name, top_n)
         self.top_n = top_n
         self.url = "https://api.hh.ru"
 
     def __str__(self):
+        """
+        Удобочитаемое строковое представление объекта
+        :return: self.name
+        """
         return self.name
 
     def __repr__(self):
+        """
+        Информативное строковое представление объекта
+        :return: self.__class__.__name__ (self.name, self.top_n)
+        """
         return f"{self.__class__.__name__}({self.name}, {self.top_n})"
 
     @property
@@ -46,8 +54,3 @@ class GetHeadHunter(Vacancy, VacancyAPI):
         """
         with open(FILE, "w", encoding="utf-8") as file:
             file.write(json.dumps(self.get_vacancy, indent=4, ensure_ascii=False))
-
-
-if __name__ == '__main__':
-    r = GetHeadHunter("python", 1)
-    r.get_json()

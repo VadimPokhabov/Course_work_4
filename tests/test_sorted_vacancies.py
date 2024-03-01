@@ -17,19 +17,19 @@ def test_sorted_vacancy(test_get_hh):
 def test_sorted_vacancies_hh():
     r = SortedVacancy()
     assert (r.sorted_vacancies_hh ==
-            [{'city': 'Санкт-Петербург',
+            [{'city': 'Москва',
               'currency': 'RUR',
-              'date': '26.01.2024',
-              'name': 'Middle Python Developer',
-              'payment_from': 100000,
-              'payment_to': 120000,
-              'requirement': 'От 2-х лет коммерческого опыта, знаешь что такое SOLID, DRY, '
-                             'KISS, интересуешься паттернами проектирования. Знаешь '
-                             '<highlighttext>Python</highlighttext> 3.8. ',
-              'responsibility': 'Участвовать во всех этапах разработки в составе '
-                                'scrum-команды: собирать и анализировать требования, '
-                                'декомпозировать и оценивать задачи, писать код, '
-                                'релизить...'}])
+              'date': '26.02.2024',
+              'name': 'Junior программист Python',
+              'payment_from': 60000,
+              'payment_to': 80000,
+              'requirement': 'Уверенное знание <highlighttext>Python</highlighttext>. '
+                             'Уверенное знание SQL(PSQL, MSSQL). Умение работать с '
+                             'FastAPI. Умение работать с Git. Знание SQLAlchemy. ',
+              'responsibility': 'Поддержка микросервисов. Разработка интеграций с внешними '
+                                'и внутренними сервисами. Участие в разработке моделей по '
+                                'прогнозированию.',
+              'url': 'https://hh.ru/vacancy/93804724'}])
 
 
 def test_error_sorted_vacancy():

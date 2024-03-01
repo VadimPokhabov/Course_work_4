@@ -1,11 +1,14 @@
-from src.debug_user_json import DebugUserJson
 from src.get_vacancies_api_hh import GetHeadHunter
-from src.debug_hh_requests import HHRequestDebug
+from src.utils import HHRequestDebug, DebugUserJson
 from src.sorted_vacancies import SortedVacancy
 
 
 class UserInteractionHeadHunter(HHRequestDebug):
     def hh_user_search(self):
+        """
+        Функция для обращения пользователя к сайту ХХ.ру.
+        Записывает результат в JSON файл
+        """
         search_query = self.user_input_str()
         top_n = self.user_input_int()
         result_search = GetHeadHunter(search_query, top_n)
@@ -14,6 +17,10 @@ class UserInteractionHeadHunter(HHRequestDebug):
 
 class UserInteractionJson(DebugUserJson):
     def json_user_search(self):
+        """
+        Функция после проверки на целостность ввода,
+        добавляет значения ввода юзера и выдаёт результат
+        """
         vacancies_list = []
         json_file = SortedVacancy()
         json_vacancies = json_file.sorted_vacancies_hh
@@ -33,10 +40,3 @@ class UserInteractionJson(DebugUserJson):
                   f"Ссылка на сайт hh.ru: {result['url']}")
         if len(vacancies_list) == 0:
             print(f'Результатов 0')
-
-
-if __name__ == '__main__':
-    # r = UserInteractionJson()
-    # r.json_user_search()
-    r = UserInteractionHeadHunter()
-    r.hh_user_search()
